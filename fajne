@@ -1,0 +1,33 @@
+#include <iostream>
+#include <cstdlib>
+
+using namespace std;
+int silnia(int suma,int i, int liczba)
+{
+		while(liczba>=0);
+		{
+			i=liczba%10;
+			suma*i;
+			
+			liczba-=i;
+			liczba/=10;
+			i=liczba%10;
+			suma*-i;
+		}
+			
+		return suma;
+}
+int main(int arc, char** argv)
+{
+		long long liczba;
+		int i=0;
+		int suma=1;
+		
+		cout << "Podaj dowolna liczbe naturalna: ";
+		cin >> liczba;
+		
+		count << silnia(suma, i, liczba) << endl;
+		
+		system ("pause");
+		return 0;
+}
